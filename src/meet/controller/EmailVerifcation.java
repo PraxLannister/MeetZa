@@ -138,11 +138,15 @@ Connection con =null;
 					
 					//message.setSubject("Sis GREET(Happy Programming) "+Math.random());
 					int Otp =new Random().nextInt(9999)+1000;
+					// Creating testing otp for 
 					String link="<a href='http://localhost:8088/MeetZa/OTP.jsp'>for succcessful login use this link</a>";
 					
 					message.setText("please click on link"+link+"\n otp is "+Otp);
 					String otp=""+Otp;
 				
+					
+					//for testing purpose
+					otp= "shershaah";
 					
 					System.out.println(Otp);
 					System.out.println(emailId);
@@ -160,7 +164,7 @@ Connection con =null;
 				}
 				response.sendRedirect("OTP.jsp");
 		}else{
-			request.setAttribute("error","Email is already exist");
+			request.setAttribute("error","Email already exists");
 			RequestDispatcher rd = request.getRequestDispatcher("SignUp.jsp");
 		
 			rd.forward(request, response);

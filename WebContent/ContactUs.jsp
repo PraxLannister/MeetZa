@@ -64,13 +64,13 @@
 							<p> </p>
 							<ul>
 								<li>
-									<p><i class="fas fa-map-marker-alt"></i>Address: Harsh Vardhan Bahree <br>Kota ,Raipur (Chhatisgarh)<br> PIN:492001		 </p>
+									<p><i class="fas fa-map-marker-alt"></i>Address: Team Shershaah <br>Motilal Nehru National Institute Of Technology , Hostel C V Raman<br> PIN:211004		 </p>
 								</li>
 								<li>
-									<p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+919829877372">+91-9829877372</a></p>
+									<p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+919829877372">+91-532-2271203</a></p>
 								</li>
 								<li>
-									<p><i class="fas fa-envelope"></i>Email: <a href="harshvardhanbahree@gmail.com">harshvardhanbahree@gmail.com</a></p>
+									<p><i class="fas fa-envelope"></i>Email: <a href="harshvardhanbahree@gmail.com">prakhar.2019ca66@mnnita.ac.in</a></p>
 								</li>
 							</ul>
 						</div>

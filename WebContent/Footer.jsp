@@ -41,13 +41,14 @@
                             <h4>Contact Us</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Near Chandani Chowk,Kota <br>Raipur<br> PIN Code:49003 </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: C.V.Raman Boys Hostel
+                                     <br>Uptron Road, Chowk, Govindpur, Teliarganj, Prayagraj, Uttar Pradesh<br> PIN Code:211004 </p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="#">+91-8462091059</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="#">+91-532-2271203</a></p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:harshvardhanbahree@gmail.com">raghvp672@gmail.com</a></p>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:prakhar.2019ca66@mnnit.ac.in">prakhar.2019ca66@mnnit.ac.in</a></p>
                                 </li>
                             </ul>
                         </div>
