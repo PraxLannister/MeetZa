@@ -1,6 +1,7 @@
 package meet.controller;
 
 import java.io.IOException;
+import java.security.Security;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,6 +9,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.util.Random;
 
+import javax.crypto.Cipher;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.PasswordAuthentication;
@@ -22,6 +26,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+
+//import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import meet.util.db.SisDbConnectionUtil;
 
@@ -179,24 +185,7 @@ Connection con =null;
 		String emailId = request.getParameter("emailid");
 		
 		String password = "";
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-				
-				
-				
+	
 				final String senderEmailId = "MeatZaa12@gmail.com";
 				final String senderPassword = "1234567890@Meat";
 		
@@ -253,6 +242,28 @@ Connection con =null;
 			try {
 				 String sql =" update Meat_user set user_password=? where Mail_Id=?";
 				 pstmt = con.prepareStatement(sql);
+				 // Encryption //////////////////////////////////////
+//				 byte[] input;
+//				 byte[] keyBytes = "12345678".getBytes();
+//				 byte[] ivBytes = "input123".getBytes();
+//				 SecretKeySpec  key = new SecretKeySpec(keyBytes,"DES");
+//				 IvParameterSpec ivSpec = new IvParameterSpec(ivBytes);
+//				 
+//				 Cipher cipher; // will hold encrypted password
+//				 byte[] cypherText; 
+//				 int ctLength;
+// 				 
+//				 
+//				 try {
+//					 Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
+//					 
+//					 
+//				 }catch {
+//					 
+//				 }
+				 
+				 //////////////////////////////////////////////////
+			
 				 pstmt.setString(1, password);
 				 pstmt.setString(2, emailId);
 				

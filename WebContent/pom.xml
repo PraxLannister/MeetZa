@@ -5,8 +5,17 @@
 	<artifactId>MyWebapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<dependencies>
+	<dependency>
+   <groupId>org.bouncycastle</groupId>
+   <artifactId>bcprov-jdk15on</artifactId>
+   <version>1.52</version>
+</dependency>
+
+	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
